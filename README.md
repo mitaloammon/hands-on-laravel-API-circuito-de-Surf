@@ -3,6 +3,7 @@
 ##### O Projeto Contém :
 
 -   **_Laravel Framework_**
+-   **_Postman API_** 
 
 ### Desafio Horizon
 
