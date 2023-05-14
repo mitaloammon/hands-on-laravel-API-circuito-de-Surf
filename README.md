@@ -25,13 +25,14 @@ _A API possui os seguintes endpoints:_
 
 ```POST /surfistas: cadastra um novo surfista no sistema. Os parâmetros necessários são enviados no corpo da requisição em formato JSON.
 GET /surfistas: retorna a lista de todos os surfistas cadastrados.
-POST /baterias: cadastra uma nova bateria de surfe. Os surfistas participantes são enviados no corpo da requisição em formato JSON.
+POST /surfistas: cadastra um novo surfista. Os surfistas participantes são enviados no corpo da requisição em formato JSON.
+POST /baterias: cadastra uma nova bateria. As baterias cadastradas são enviadas no corpo da requisição em formato JSON. 
 GET /baterias: retorna a lista de todas as baterias criadas.
 POST /ondas: cadastra uma nova onda para cada surfista e bateria de acordo com sua chave estrangeira. As ondas são enviadas no corpo da requisição em formato JSON.
 GET /ondas: retorna as ondas registradas.
 POST /notas: cadastra cada nova nota por surfista dentro de uma bateria de acordo com sua chave primária. As notas são enviadas no corpo da requisição em formato JSON.
 GET /notas: retorna as notas registradas.
-GET /vencedor/{id}: retorna os surfistas vencedores registrados de acordo com sua pontuação em cada bateria.
+GET baterias/vencedor/{id}: retorna os surfistas vencedores registrados de acordo com sua pontuação em cada bateria.
 ```
 
 ### Ambiente de Desenvolvimento
