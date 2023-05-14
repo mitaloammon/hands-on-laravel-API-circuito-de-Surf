@@ -32,7 +32,7 @@ POST /ondas: cadastra uma nova onda para cada surfista e bateria de acordo com s
 GET /ondas: retorna as ondas registradas.
 POST /notas: cadastra cada nova nota por surfista dentro de uma bateria de acordo com sua chave primária. As notas são enviadas no corpo da requisição em formato JSON.
 GET /notas: retorna as notas registradas.
-GET baterias/vencedor/{id}: retorna os surfistas vencedores registrados de acordo com sua pontuação em cada bateria.
+GET /baterias/vencedor/{id}: retorna os surfistas vencedores registrados de acordo com sua pontuação em cada bateria.
 ```
 
 ### Ambiente de Desenvolvimento
