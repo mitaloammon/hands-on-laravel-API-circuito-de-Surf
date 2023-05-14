@@ -41,7 +41,6 @@ GET /baterias/vencedor/{id}: retorna os surfistas vencedores registrados de acor
 
 ```
 $ composer install
-
 ```
 
 2. Crie e adapte o arquivo .env com base no exemplo
