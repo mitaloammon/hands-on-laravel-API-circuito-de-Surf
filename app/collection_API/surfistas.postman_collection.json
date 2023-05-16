@@ -1,0 +1,103 @@
+{
+	"info": {
+		"_postman_id": "bbd9b26f-038f-4c1f-81ae-ba6a9eec1c31",
+		"name": "surfistas",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27355677"
+	},
+	"item": [
+		{
+			"name": "surfistas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/surfistas",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"surfistas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "surfistas",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "nome",
+							"value": "Lewis",
+							"type": "text"
+						},
+						{
+							"key": "pais",
+							"value": "UK",
+							"type": "text"
+						},
+						{
+							"key": "surfista2",
+							"value": "2",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/surfistas",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"surfistas"
+					],
+					"query": [
+						{
+							"key": "nome",
+							"value": "Gabiel",
+							"disabled": true
+						},
+						{
+							"key": "pais",
+							"value": "Brasil",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

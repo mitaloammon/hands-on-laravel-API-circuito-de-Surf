@@ -1,0 +1,83 @@
+{
+	"info": {
+		"_postman_id": "e3259b7a-8f9c-4d2a-b4cb-adb60d2a5334",
+		"name": "ondas",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27355677"
+	},
+	"item": [
+		{
+			"name": "ondas",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "bateria",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "surfista",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/ondas",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"ondas"
+					],
+					"query": [
+						{
+							"key": "bateria",
+							"value": "3",
+							"disabled": true
+						},
+						{
+							"key": "surfista",
+							"value": "5",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ondas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/ondas",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"ondas"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

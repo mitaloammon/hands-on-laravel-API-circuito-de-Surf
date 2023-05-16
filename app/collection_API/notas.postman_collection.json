@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "9ea6ba9a-9059-47d1-89c9-f851d27221dd",
+		"name": "notas",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27355677"
+	},
+	"item": [
+		{
+			"name": "notas",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/notas",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"notas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "notas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/notas",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"notas"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
