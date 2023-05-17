@@ -34,6 +34,10 @@ POST /notas: cadastra cada nova nota por surfista dentro de uma bateria de acord
 GET /notas: retorna as notas registradas.
 GET /baterias/vencedor/{id}: retorna os surfistas vencedores registrados de acordo com sua pontuação em cada bateria.
 ```
+<br>
+<div align="center">
+<img src = "https://github.com/mitaloammon/desafioCircuitoDeSurf/assets/92004593/d330ad14-e477-402f-8213-ad90e09a3f41" width="700px" />
+</div>
 
 ### Ambiente de Desenvolvimento
 
